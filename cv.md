@@ -1,6 +1,6 @@
 #  _Trofymovych Ihor_
 
-## Frontend Developer
+## Beginner Frontend Developer
 
 ###  My contacts:
 **Phone:** +38 099 34656  
@@ -40,5 +40,5 @@ Now studying  -  RS Schools Course «JavaScript/Front-end. Stage 0»
 
 ## **Languages:**
 English - strong A2++
-UA - native sp
+UA - native speaker
 Rus - native speaker
