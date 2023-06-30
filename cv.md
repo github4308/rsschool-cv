@@ -42,5 +42,7 @@ I don't have any work experience in development
 ## **Languages:**
 
 English - strong A2++
+
 UA - native speaker
+
 Rus - native speaker
