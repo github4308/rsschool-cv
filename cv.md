@@ -40,5 +40,5 @@ Now studying  -  RS Schools Course «JavaScript/Front-end. Stage 0»
 
 ## **Languages:**
 English - strong A2++
-UA - native speake
+UA - native speaker
 Rus - native speaker
