@@ -6,7 +6,7 @@
 
 **Phone:** +38 099 34656  
 **E-mail:** realist149@gmail.com  
-**Telegram:** @ahoj
+**Telegram:** @ahojc
 
 ## About myself
 
