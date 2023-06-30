@@ -1,6 +1,6 @@
 #  _Trofymovych Ihor_
 
-## Junior Frontend Developer
+## Beginner Frontend Developer
 
 ###  My contacts:
 **Phone:** +38 099 34656  
