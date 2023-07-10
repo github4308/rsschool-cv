@@ -1,12 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header container">
+      <div class="header-container container">
+        <div class="header-logo">
+          <img src="/image.png" alt="" />
+        </div>
+        <div class="header-about">
+          <h2 class="header-about-me">personal cv</h2>
+          <h1 class="header-me">Trofymovych Ihor</h1>
+          <p class="header-info">
+            I'm 25 years old, a young man who wants to become a frontend
+            developer.
+          </p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <nav class="nav">
+          <ul class="main-nav-list">
+            <li class="main-nav-link"><a href="#">My contacts</a></li>
+            <li class="main-nav-link"><a href="#">About myself</a></li>
+            <li class="main-nav-link"><a href="#">Skills</a></li>
+            <li class="main-nav-link"><a href="#">Code Example</a></li>
+            <li class="main-nav-link"><a href="#">Education</a></li>
+            <li class="main-nav-link"><a href="#">Work experience</a></li>
+          </ul>
+        </nav>
+        <section class="contacts">
+          <h2 class="cont">Write me</h2>
+          <div class="contacts-box">
+            <div class="socials-logo">
+              <img class="socials" src="/img/telegram.svg" alt="" />
+              <img class="socials" src="/img/discord.svg" alt="" />
+              <img class="socials" src="/img/mail.svg" alt="" />
+            </div>
+            <div class="socials-about">
+              <a href="https://t.me/AHOJc"><p>@ahojc</p></a>
+              <a href="https://github.com/github4308"><p>github4308</p></a>
+              <a href="mailto:Palace1497@gmail.com">
+                <p>Palace1497@gmail.com</p></a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="aboutmyself">
+          <h2 class="cont">Me</h2>
+          <h2 class="aboutme">
+            I love all kinds of sports, go to the gym, play football, sometimes
+            <br />
+            swim. And also love new discoveries, I was in all parts of Ukraine.
+            <br />
+            Enjoy the process of website development
+          </h2>
+        </section>
+        <section class="skills">
+          <h2 class="cont">My skills</h2>
+          <div class="mainskills">
+            <ul class="kills-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>GIT / GitHub</li>
+              <li>Webpack & Gulp basic</li>
+              <li>Java Script basic</li>
+              <li>Figma / VS Code / Chrome dev.tools</li>
+            </ul>
+          </div>
+          <div></div>
+        </section>
+        <section class="code-exmpl">
+          <h2 class="cont">My pieses code</h2>
+          <div>Code Example</div>
+          <pre>
+             <code>
+               function isPalindrome(x) {
+                x = x.toLowerCase().split('')
+                let reverseX = x.slice().reverse();
+                return x.join() === reverseX.join()
+            }
+             </code>
+            </pre>
+        </section>
+        <section class="education">
+          <h2 class="cont">Education</h2>
+          <div class="fd">
+            <h2>NATIONAL CENTRAL PHARMACEUTICAL UNIVERSITY</h2>
+            <p>
+              Faculty of Medical and Pharmaceutical <br />
+              Technology Faculty of Medical and Pharmaceutical Technologies
+              DEPARTMENT PHYSICAL REHABILITATION AND HEALTH <br />
+              2015-2021
+            </p>
+          </div>
+        </section>
+        <section class="works">
+          <h2 class="cont">Works</h2>
+          <div class="worksbox">
+            <a
+              href="https://github.com/github4308/rsschool-cv/blob/gh-pages/cv.md"
+            >
+              <img src="/img/cv.jpg" alt="git" />
+            </a>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer container">
+      <div class="footer-conent">
+        <a class="footer-git-link" href="https://github.com/github4308">
+          <img class="footer-git" src="/img/github.svg" alt="logogit" />
+        </a>
+        <p class="footer-p">
+          2023 <br />
+          all rights reserved
+        </p>
+
+        <a class="footer-rs-link" href="https://rs.school/js/">
+          <img class="footer-rs" src="/img/rs.svg" alt="logors" />
+        </a>
+      </div>
+    </footer>
+  </body>
 </html>
