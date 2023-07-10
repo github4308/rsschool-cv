@@ -143,41 +143,41 @@ html {
   gap: 40px;
   grid-template-columns: 1fr 5fr;
 }
-.header__logo {
+.header-logo {
   max-width: 250px;
 }
-.header__logo img {
+.header-logo img {
   max-width: 200px;
   border-radius: 50%;
 }
-.header__about {
+.header-about {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding-top: 20px;
 }
-.header__about-me {
+.header-about-me {
   font-size: 18px;
   margin-bottom: 10px;
 }
-.header__me {
+.header-me {
   font-size: 44px;
   font-weight: 700;
   margin-bottom: 10px;
 }
-.header__info {
+.header-info {
   font-size: 24px;
 }
 .skills{
   margin-bottom: 40px;
 }
 /* =========================================== */
-.main__nav {
+.main-nav {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
 }
-.main__nav-list {
+.main-nav-list {
   display: flex;
   gap: 40px;
   color: black;
@@ -185,10 +185,10 @@ html {
   margin-bottom: 40px;
 }
 
-.main__nav-list a:hover {
+.main-nav-list a:hover {
   color: rgb(231, 7, 7);
 }
-.main__nav-link a {
+.main-nav-link a {
   font-size: 18px;
   font-weight: 400;
 }
@@ -225,7 +225,7 @@ margin: 0 50px;
     flex-direction: column;
     align-items: center;
   }
-  .header__about {
+  .header-about {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -323,29 +323,29 @@ margin: 0 50px;
   margin-bottom: 20px;
 }
 
-.footer__conent {
+.footer-conent {
   display: flex;
   gap: 40px;
   justify-content: space-between;
   align-self: center;
 
 }
-.footer__git {
+.footer-git {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.footer__p {
+.footer-p {
   font-size: 14px;
   font-weight: 400;
 }
-.footer__rs {
+.footer-rs {
   max-width: 80px;
 }
-.footer__rs-link {
+.footer-rs-link {
   width: 100px;
 }
-.footer__git-link {
+.footer-git-link {
   width: 100px;
   display: flex;
   justify-content: center;
